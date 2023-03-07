@@ -13,7 +13,7 @@ import os
 dir_path = "C:/Users/abc/cursus/files/cache"
 
 def clean_cache():
-    import os
+   
     directory = 'cache'
     shutil.rmtree(dir_path, ignore_errors)
     os.makedirs(dir_path)
